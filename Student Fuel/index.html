@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+		<title>SSNE - Student Fuel</title>
+        <!--Font-->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		  <script src="./assets/javascripts/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="./assets/stylesheets/demo.css" />
+		<!--[if (gt IE 8) | (IEMobile)]><!-->
+		<link rel="stylesheet" href="./assets/stylesheets/unsemantic-grid-responsive.css" />
+		<!--<![endif]-->
+		<!--[if (lt IE 9) & (!IEMobile)]>
+		  <link rel="stylesheet" href="./assets/stylesheets/ie.css" />
+		<![endif]-->
+		
+        <!--own stylesheet for editing-->
+		<link rel="stylesheet" href="./assets/stylesheets/style.css" />
+        <!--script for media player-->
+        <script src="build/jquery.js"></script>
+        <script src="build/mediaelement-and-player.min.js"></script>
+        <link rel="stylesheet" href="build/mediaelementplayer.css" />
+        <script>
+            // using jQuery
+            $('video,audio').mediaelementplayer(/* Options */);
+        </script>
+        <!--font icon for search bar-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<!--header-->
+		<div class="grid-100 mobile-grid-100 header">
+		<!--desktop only-->
+			<div class="grid-30 hide-on-mobile">
+				<a href="index.html">
+					<img class="ssne" src="./img/SSNE.png" alt="Student Snack North East">
+				</a>
+			</div>
+			<div class="grid-70 hide-on-mobile">
+				<div class="grid-100 hide-on-mobile">
+					<form class="searchform" action="">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+						<input type="search" id="search" placeholder="Search..." />
+					</form>
+				</div>
+				<div class="grid-100 hide-on-mobile">
+					<ul class="si">
+						<li><a href=""><img src="./img/social/Facebook.png" alt="Facebook"></a></li>
+						<li><a href=""><img src="./img/social/Twitter.png" alt="Twitter"></a></li>
+						<li><a href=""><img src="./img/social/GooglePlus.png" alt="Google Plus"></a></li>
+						<li><a href=""><img src="./img/social/Instagram.png" alt="Instagram"></a></li>
+						<li><a href=""><img src="./img/social/Youtube.png" alt="Youtube"></a></li>
+					</ul>
+				</div>
+			</div>
+		<!--Mobile only-->
+			<div class="hide-on-desktop mobile-grid-100">
+				<a href="index.html">
+					<img class="ssneMob" src="./img/SSNE.png" alt="Student Snack North East">
+				</a>
+			</div>
+			<div class="hide-on-desktop mobile-grid-100">
+				<ul class="siMob">
+					<li><a href=""><img src="./img/social/Facebook.png" alt="Facebook"></a></li>
+					<li><a href=""><img src="./img/social/Twitter.png" alt="Twitter"></a></li>
+					<li><a href=""><img src="./img/social/GooglePlus.png" alt="Google Plus"></a></li>
+					<li><a href=""><img src="./img/social/Instagram.png" alt="Instagram"></a></li>
+					<li><a href=""><img src="./img/social/Youtube.png" alt="Youtube"></a></li>
+				</ul>
+			</div>
+			<div class="hide-on-desktop mobile-grid-100">
+				<form class="searchform" action="">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search1" placeholder="Search..." />
+				</form>
+			</div>
+		</div>
+		<!--navigation-->
+		<div class="grid-100 mobile-grid-100" id ="cssmenu">
+			<ul>
+				<li class='active'><a href="">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">Other Products</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<!--main body-->
+			<div class="grid-80 push-10 mobile-grid-90 mobile-push-5 gallery">
+				<img src="./img/banner.gif" alt="advert1">
+			</div>
+			
+			<div class="grid-60 push-20 mobile-grid-90 mobile-push-5 video">
+                <video controls="controls">
+                    <source type="video/mp4" src="studentfuel.mp4" />
+                    <source type="video/webm" src="studentfuel.webm" />
+                    <source type="video/ogg" src="studentfuel.ogg" />
+                    <track kind="subtitles" src="subtitles.vtt" srclang="en" />
+                </video>
+			</div>
+			
+			<div class="grid-80 push-10 mobile-grid-90 mobile-push-5">
+				<div class="grid-30 mobile-grid-45 advert">
+                    <a href="index.html"> 
+                        <img src="./img/advert-1.gif" alt="advert1">
+                    </a>
+				</div>
+				<div class="grid-30 push-5 mobile-grid-45 mobile-push-10 advert">
+					<a href="index.html"> 
+                        <img src="./img/advert-2.gif" alt="advert2">
+                    </a>
+				</div>
+				<div class="grid-30 push-10 hide-on-mobile advert">
+					<a href="index.html"> 
+                        <img src="./img/advert-3.gif" alt="advert3">
+                    </a>
+				</div>
+			</div>	
+            <div class="grid-70 push-15 mobile-grid-90 mobile-push-5 text1">
+                <h1>Welcome To The Student Fuel Home Page</h1>
+                <h2>Here you will find all of the information about our new product Student Fuel!</h2>
+                <p>Student fuel is a new energy drink aimed at students who have deadlines to meet and need to get work done. Consisting of no artificial colours or flavourings this drink is healthy for mind, body and soul.</p>
+                <p>Coming to all major supermarkets this drink will be available from December 16th 2015 so make sure you do not miss out!</p> <br />
+            </div>
+			<div class="grid-80 push-10 mobile-grid-90 mobile-push-5">
+				<div class="grid-30 push-15 mobile-grid-45 advert">
+					<a href="index.html"> 
+                        <img src="./img/advert-4.gif" alt="advert4">
+                    </a>
+				</div>
+				<div class="grid-30 push-25 mobile-grid-45 mobile-push-10 advert">
+					<a href="index.html"> 
+                        <img src="./img/advert-5.gif" alt="advert5">
+                    </a>
+				</div>
+			</div>
+			<div class="grid-70 push-15 mobile-grid-90 mobile-push-5 text1">
+                <h2>Nutritional Information</h2>
+                <p>Here are the nutritional information for a can of our delicious Student Fuel</p>
+                <img src="./img/nutrition.jpg" alt="nutrition">
+                <h2>Available In Stores Now</h2>
+                <p>Student Fuel is available in these major stores</p>
+                <div class="grid-30 push-5 mobile-grid-100">
+                    <img src="./img/tesco.png" alt="tesco">
+                </div>
+                <div class="grid-30 push-5 mobile-grid-100">
+                    <img src="./img/morrisons.jpeg" alt="morrisons">
+                </div>
+                <div class="grid-30 push-5 mobile-grid-100">
+                    <img src="./img/asda.jpg" alt="asda">
+                </div>
+            </div>
+			<div class="grid-100 mobile-grid-100 footerArea">
+				<p>Student Fuel&copy; is Copyright of Student Snack North East</p>
+                <p>Website created by Martin Shields</p>
+			</div>
+	</body>
+</html>
